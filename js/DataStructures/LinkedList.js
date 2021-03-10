@@ -80,6 +80,8 @@ class LinkedList {
         return this
     }
 
+    // Idk how it works too
+
     reverse() {
         if (!this.head.next) {
             return this.head
@@ -187,11 +189,14 @@ class DoublyLinkedList {
 
 }
 
-const myLinkedList = new LinkedList(10)
-myLinkedList.append(3)
-myLinkedList.prepend(2)
-myLinkedList.insert(1, 7)
-console.log(myLinkedList.printList())
-myLinkedList.remove(2)
-console.log(myLinkedList.printList())
-console.log(myLinkedList.reverse())
+// const myLinkedList = new LinkedList(10)
+// myLinkedList.append(3)
+// myLinkedList.prepend(2)
+// myLinkedList.insert(1, 7)
+// console.log(myLinkedList.printList())
+// myLinkedList.remove(2)
+// console.log(myLinkedList.printList())
+// console.log(myLinkedList.reverse())
+
+// module.exports.LinkedList = LinkedList;
+module.exports.Node = Node;
